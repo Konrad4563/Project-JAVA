@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="451EB2C1-92D7-2924-E6F0-B4E478687E03" name="opinie">
+<createdBy>48513</createdBy>
+<createdTime>2022-05-30 17:19:04 UTC</createdTime>
+<ownerDesignName>Java_ER_PRO</ownerDesignName>
+<engineerTo>
+<item key="24C09DC8-91CA-58CB-CF53-FAD696CD0C00" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_OPINIA" id="A1EA6C1E-AA93-50B9-C7FB-E2A4F6328D56">
+<createdBy>48513</createdBy>
+<createdTime>2022-05-30 17:19:04 UTC</createdTime>
+<ownerDesignName>Java_ER_PRO</ownerDesignName>
+<engineerTo>
+<item key="24C09DC8-91CA-58CB-CF53-FAD696CD0C00" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TRESC" id="FFF3C6DA-F51B-1C11-08E2-EE327071CE08">
+<createdBy>48513</createdBy>
+<createdTime>2022-05-30 17:19:04 UTC</createdTime>
+<ownerDesignName>Java_ER_PRO</ownerDesignName>
+<engineerTo>
+<item key="24C09DC8-91CA-58CB-CF53-FAD696CD0C00" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GWIAZDKI" id="93272DCA-B1C6-3A19-E160-D081D7D9DD1D">
+<createdBy>48513</createdBy>
+<createdTime>2022-05-30 17:19:04 UTC</createdTime>
+<ownerDesignName>Java_ER_PRO</ownerDesignName>
+<engineerTo>
+<item key="24C09DC8-91CA-58CB-CF53-FAD696CD0C00" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_HOTEL" id="815A837A-933C-6505-50DD-B5AEC35C786C">
+<createdBy>48513</createdBy>
+<createdTime>2022-05-30 17:20:18 UTC</createdTime>
+<generatorID>53B8C892-C51F-3293-68FD-465E3EDF43B3</generatorID>
+<ownerDesignName>Java_ER_PRO</ownerDesignName>
+<engineerTo>
+<item key="24C09DC8-91CA-58CB-CF53-FAD696CD0C00" value="true"/>
+</engineerTo>
+<referedAttribute>23597D45-36E2-0445-702E-B103B89EAB62</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="98687D2C-E415-5C83-CDA8-AA0EB286E85D" name="TYP_POKOJU PK">
+<createdBy>48513</createdBy>
+<createdTime>2022-05-30 17:19:04 UTC</createdTime>
+<ownerDesignName>Java_ER_PRO</ownerDesignName>
+<engineerTo>
+<item key="24C09DC8-91CA-58CB-CF53-FAD696CD0C00" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A1EA6C1E-AA93-50B9-C7FB-E2A4F6328D56</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

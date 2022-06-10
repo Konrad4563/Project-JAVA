@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A1EC3FAE-523E-40A7-5325-8FC438550630" name="POKOJ">
+<createdBy>Marcin Bonar</createdBy>
+<createdTime>2022-03-24 16:03:58 UTC</createdTime>
+<ownerDesignName>Java_ER_PRO</ownerDesignName>
+<engineerTo>
+<item key="24C09DC8-91CA-58CB-CF53-FAD696CD0C00" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_POKOJ" id="280A3125-0115-4655-7D47-529057013EB4">
+<createdBy>Marcin Bonar</createdBy>
+<createdTime>2022-03-24 16:04:07 UTC</createdTime>
+<ownerDesignName>Java_ER_PRO</ownerDesignName>
+<engineerTo>
+<item key="24C09DC8-91CA-58CB-CF53-FAD696CD0C00" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STAN" id="73EEDEC3-0F8C-6786-FC96-D75399A45DF8">
+<createdBy>Marcin Bonar</createdBy>
+<createdTime>2022-03-24 16:04:30 UTC</createdTime>
+<ownerDesignName>Java_ER_PRO</ownerDesignName>
+<engineerTo>
+<item key="24C09DC8-91CA-58CB-CF53-FAD696CD0C00" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_POKOJU" id="41D0DFA1-6413-4DB9-78A7-A236954C075A">
+<createdBy>Marcin Bonar</createdBy>
+<createdTime>2022-03-24 16:04:41 UTC</createdTime>
+<ownerDesignName>Java_ER_PRO</ownerDesignName>
+<engineerTo>
+<item key="24C09DC8-91CA-58CB-CF53-FAD696CD0C00" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_HOTEL" id="5AC5F3DB-383A-8E92-1CF8-23F9DF20FEAC">
+<createdBy>Marcin Bonar</createdBy>
+<createdTime>2022-03-24 16:18:45 UTC</createdTime>
+<generatorID>0037630C-68A8-22C4-B522-64CEC440C462</generatorID>
+<ownerDesignName>Java_ER_PRO</ownerDesignName>
+<engineerTo>
+<item key="24C09DC8-91CA-58CB-CF53-FAD696CD0C00" value="true"/>
+</engineerTo>
+<referedAttribute>23597D45-36E2-0445-702E-B103B89EAB62</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_TYP_POKOJU" id="252234C9-6650-C314-A0BF-B9DDF0F262A3">
+<createdBy>Marcin Bonar</createdBy>
+<createdTime>2022-03-24 16:20:08 UTC</createdTime>
+<generatorID>394E1A4E-DFED-A2CF-50B2-81E5BEBF61C5</generatorID>
+<ownerDesignName>Java_ER_PRO</ownerDesignName>
+<engineerTo>
+<item key="24C09DC8-91CA-58CB-CF53-FAD696CD0C00" value="true"/>
+</engineerTo>
+<referedAttribute>9B73BEC2-D3FB-28F9-5AAE-8B4AAD786AB9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BA0F6C51-2F9C-FC45-C0AA-107D1A727076" name="POKOJ PK">
+<createdBy>Marcin Bonar</createdBy>
+<createdTime>2022-03-24 16:04:29 UTC</createdTime>
+<ownerDesignName>Java_ER_PRO</ownerDesignName>
+<engineerTo>
+<item key="24C09DC8-91CA-58CB-CF53-FAD696CD0C00" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>280A3125-0115-4655-7D47-529057013EB4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

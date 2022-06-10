@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Java_ER_PRO" id="EDB0F243-A176-F339-F06A-1E7B319A8198" version="3.5">
+<createdBy>Marcin Bonar</createdBy>
+<createdTime>2022-03-24 15:55:29 UTC</createdTime>
+<ownerDesignName>Java_ER_PRO</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>EDB0F243-A176-F339-F06A-1E7B319A8198</designId>
+</OSDM_Design>

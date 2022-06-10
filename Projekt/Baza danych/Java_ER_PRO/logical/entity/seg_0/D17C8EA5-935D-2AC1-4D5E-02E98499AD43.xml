@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D17C8EA5-935D-2AC1-4D5E-02E98499AD43" name="GRAFIK">
+<createdBy>Marcin Bonar</createdBy>
+<createdTime>2022-03-24 16:56:25 UTC</createdTime>
+<ownerDesignName>Java_ER_PRO</ownerDesignName>
+<engineerTo>
+<item key="24C09DC8-91CA-58CB-CF53-FAD696CD0C00" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Imie" id="7F6E9B21-4E08-A416-F6E4-74EC2FB3400D">
+<createdBy>Marcin Bonar</createdBy>
+<createdTime>2022-03-24 17:50:29 UTC</createdTime>
+<ownerDesignName>Java_ER_PRO</ownerDesignName>
+<engineerTo>
+<item key="24C09DC8-91CA-58CB-CF53-FAD696CD0C00" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwisko" id="F5F19018-EAD0-D768-CF2A-01DAF10F4BA3">
+<createdBy>48513</createdBy>
+<createdTime>2022-05-19 06:15:38 UTC</createdTime>
+<ownerDesignName>Java_ER_PRO</ownerDesignName>
+<engineerTo>
+<item key="24C09DC8-91CA-58CB-CF53-FAD696CD0C00" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PON" id="14901B9C-1201-DA08-7EEB-5F9BE8277A4F">
+<createdBy>Marcin Bonar</createdBy>
+<createdTime>2022-03-24 17:01:32 UTC</createdTime>
+<ownerDesignName>Java_ER_PRO</ownerDesignName>
+<engineerTo>
+<item key="24C09DC8-91CA-58CB-CF53-FAD696CD0C00" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WT" id="B03D1681-69F2-3F6B-696E-FD014779BD36">
+<createdBy>Marcin Bonar</createdBy>
+<createdTime>2022-03-24 17:01:49 UTC</createdTime>
+<ownerDesignName>Java_ER_PRO</ownerDesignName>
+<engineerTo>
+<item key="24C09DC8-91CA-58CB-CF53-FAD696CD0C00" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SR" id="9F5F2106-AFB5-3244-141F-B361E65A8250">
+<createdBy>Marcin Bonar</createdBy>
+<createdTime>2022-03-24 17:01:57 UTC</createdTime>
+<ownerDesignName>Java_ER_PRO</ownerDesignName>
+<engineerTo>
+<item key="24C09DC8-91CA-58CB-CF53-FAD696CD0C00" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CZW" id="EFCCC93F-7B3A-913D-72AE-017A25432687">
+<createdBy>Marcin Bonar</createdBy>
+<createdTime>2022-03-24 17:02:06 UTC</createdTime>
+<ownerDesignName>Java_ER_PRO</ownerDesignName>
+<engineerTo>
+<item key="24C09DC8-91CA-58CB-CF53-FAD696CD0C00" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PT" id="8060516D-BA05-2B22-63A6-43E58F1B9123">
+<createdBy>Marcin Bonar</createdBy>
+<createdTime>2022-03-24 17:02:15 UTC</createdTime>
+<ownerDesignName>Java_ER_PRO</ownerDesignName>
+<engineerTo>
+<item key="24C09DC8-91CA-58CB-CF53-FAD696CD0C00" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SOB" id="93E39B70-0355-3B52-1CA3-B8C54FA33108">
+<createdBy>Marcin Bonar</createdBy>
+<createdTime>2022-03-24 17:02:25 UTC</createdTime>
+<ownerDesignName>Java_ER_PRO</ownerDesignName>
+<engineerTo>
+<item key="24C09DC8-91CA-58CB-CF53-FAD696CD0C00" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ND" id="C65BA046-40FA-868B-E349-F63F0BDDB1B1">
+<createdBy>Marcin Bonar</createdBy>
+<createdTime>2022-03-24 17:02:36 UTC</createdTime>
+<ownerDesignName>Java_ER_PRO</ownerDesignName>
+<engineerTo>
+<item key="24C09DC8-91CA-58CB-CF53-FAD696CD0C00" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PRACOWNIK" id="8CB55964-D5FA-5723-406D-FAA93CA9A55F">
+<createdBy>Marcin Bonar</createdBy>
+<createdTime>2022-03-29 10:23:59 UTC</createdTime>
+<generatorID>DC9E6B26-72ED-487A-C1EE-F317CB5FA86F</generatorID>
+<ownerDesignName>Java_ER_PRO</ownerDesignName>
+<engineerTo>
+<item key="24C09DC8-91CA-58CB-CF53-FAD696CD0C00" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>0D7DFD77-9075-1516-6767-9287B394109D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DB473B64-F6A4-90A3-3D50-BBFC12520FCA" name="GRAFIK PK">
+<createdBy>Marcin Bonar</createdBy>
+<createdTime>2022-03-24 17:50:43 UTC</createdTime>
+<ownerDesignName>Java_ER_PRO</ownerDesignName>
+<engineerTo>
+<item key="24C09DC8-91CA-58CB-CF53-FAD696CD0C00" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7F6E9B21-4E08-A416-F6E4-74EC2FB3400D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

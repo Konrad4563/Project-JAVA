@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="615E8598-8B60-2E6C-E44A-5DBB37AB6B1E" name="SKARGI">
+<createdBy>Marcin Bonar</createdBy>
+<createdTime>2022-03-24 17:32:19 UTC</createdTime>
+<ownerDesignName>Java_ER_PRO</ownerDesignName>
+<engineerTo>
+<item key="24C09DC8-91CA-58CB-CF53-FAD696CD0C00" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_SKARGA" id="88360E1C-CF78-DA88-851C-6BD8A7C7AC99">
+<createdBy>Marcin Bonar</createdBy>
+<createdTime>2022-03-24 17:33:14 UTC</createdTime>
+<ownerDesignName>Java_ER_PRO</ownerDesignName>
+<engineerTo>
+<item key="24C09DC8-91CA-58CB-CF53-FAD696CD0C00" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TRESC" id="480FB79E-BC11-D8E8-2A0A-B4D89204758D">
+<createdBy>Marcin Bonar</createdBy>
+<createdTime>2022-03-24 17:34:07 UTC</createdTime>
+<ownerDesignName>Java_ER_PRO</ownerDesignName>
+<engineerTo>
+<item key="24C09DC8-91CA-58CB-CF53-FAD696CD0C00" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_REZER" id="AC72779E-D61F-D5A5-F6F9-BF9B3717B2AB">
+<createdBy>48513</createdBy>
+<createdTime>2022-05-31 08:08:34 UTC</createdTime>
+<generatorID>2920E4D0-A3D5-28C6-FF28-10DF61DD2091</generatorID>
+<ownerDesignName>Java_ER_PRO</ownerDesignName>
+<engineerTo>
+<item key="24C09DC8-91CA-58CB-CF53-FAD696CD0C00" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>0E035E0A-8661-2BE4-EA0C-F519F550FE5E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A0ABB407-367E-3F2C-7FB7-9CF1A32DA055" name="SKARGI PK">
+<createdBy>Marcin Bonar</createdBy>
+<createdTime>2022-03-24 17:33:29 UTC</createdTime>
+<ownerDesignName>Java_ER_PRO</ownerDesignName>
+<engineerTo>
+<item key="24C09DC8-91CA-58CB-CF53-FAD696CD0C00" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>88360E1C-CF78-DA88-851C-6BD8A7C7AC99</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
